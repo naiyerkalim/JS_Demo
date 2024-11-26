@@ -74,7 +74,7 @@
    //3.reject
   
 //A function to be executed by the constructor, during the process of constructing the promiseObj.
- //The executor is custom code that ties an outcometo a promise. programmer has to write the executor
+ //The executor is custom code that ties an outcome to a promise. programmer has to write the executor
 
 //Problem: find roll no in 2s and after 2s find name and age.
  //The methods promise.then(), promise.catch() and promise.

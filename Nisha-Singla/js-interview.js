@@ -316,8 +316,9 @@
 
 ///optional Chaining?
   //It is a safe way to access nested objects properties, even if an intermediate property does not exist.
-  //optional chaining?. stops the evaluation if the value before? is undefined or nulland returns undefined.
+  //optional chaining?. stops the evaluation if the value before? is undefined or null and returns undefined.
   //we can use it only for accessing or deleting nested item
+    //we can use it only for reading not writing.
   //for function also use optional chaining
 //   let user={
 //     name:'kalim',

@@ -18,18 +18,20 @@
 // console.log(count);
 
 ///2.show all possible combine collections from these strings.
-// let str="abc"
-// function perm(str, result){
-//     if(str===""){
-//         console.log(result)
-//     }
+let str="abc"
+function perm(str, result){
+    if(str===""){
+        console.log(result)
+    }
 
-//     for(let i=0; i<str.length;i++){
-//         let res= str.substring(0,i)+ str.substring(i+1)
-//         perm(res, result+str[i])
-//     }
-// }
-// perm(str, "")
+    for(let i=0; i<str.length;i++){
+        let res= str.substring(0,i)+ str.substring(i+1)
+        // console.log("1 ",str.substring(0,i))
+        // console.log("2 ",str.substring(i+1))
+        perm(res, result+str[i])
+    }
+}
+perm(str, "")
 
 
 //3.Give an integer (num), find the factorial of that integer.

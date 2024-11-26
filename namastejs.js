@@ -5,8 +5,8 @@
 //Execution Context
  //Everything in js happens inside an Execution Context
    //It has 2 components
-    //1. Memory comp(variable env): this is the place where all variables and functions  are stored as a key value pair.
-    //2. Code comp(Thread of execution):  This is the place where code execute line by line.
+    //1. Memory comp(variable env also known as memory creation phase): this is the place where all variables and functions  are stored as a key value pair.
+    //2. Code comp(Thread of execution also known as code execution phase):  This is the place where code execute line by line.
 //CallStack:
   //Call Stacks maintains the order of executions of execution contexts.
 
